@@ -9,7 +9,7 @@ Test suite - Nice to have E2E test suite, integration tests at a minimum to pass
 
 We need to define the data models in data.d.ts so we can take advantage of TypeScript's type checking.
 
-window.d.ts needed type definition exported. Maybe we can delete the redudant code. I commented it out as per acceptance criteria only accepts code changes within the .
+window.d.ts needed type definition exported. Maybe we can delete the redudant code. I commented it out as per acceptance criteria only accepts code changes within the cachingFetch.ts file.
 
 Added jest and some tests that cover various error cases for the validator.
 Consider erroring out for empty array. What are our API guidelines?
